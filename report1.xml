@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="5" time="0.145" timestamp="2022-06-04T11:00:47.385642" hostname="DESKTOP-96H5N3L"><testcase classname="test_first" name="test_t1" time="0.001"><failure message="assert 10 == 20">def test_t1():
+        x = 10
+        y = 20
+&gt;       assert x == y
+E       assert 10 == 20
+
+test_first.py:7: AssertionError</failure></testcase><testcase classname="test_first" name="test_t2" time="0.001" /><testcase classname="test_first" name="test_t3" time="0.001" /><testcase classname="test_first" name="test_4" time="0.001" /><testcase classname="test_markers1" name="test_1" time="0.001"><skipped type="pytest.skip" message="unconditional skip">C:\Users\SHADAB\PycharmProjects\SeleniumProgram\test_markers1.py:4: unconditional skip</skipped></testcase></testsuite></testsuites>
