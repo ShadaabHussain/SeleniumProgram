@@ -6,7 +6,7 @@ driver = None
 
 @pytest.fixture
 def setup():
-    global driver       # global => to access it outside function as well in other funcitons
+    global driver    # global => to access it outside function as well in other funcitons
     driver = webdriver.Chrome()
     driver.maximize_window()
     yield
