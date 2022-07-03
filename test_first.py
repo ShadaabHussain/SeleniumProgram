@@ -30,5 +30,5 @@ def some_test(): # invalid name
 def test_4():
     x = 30
     y = 20
-    assert result == 50
     result = x + y
+    assert result == 50
